@@ -1,0 +1,112 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="VicenteAboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VicenteContactUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RanolaContactUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RanolaAboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LimContactUs.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Update="LimAboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RanolaMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RanolaHobbies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RanolaSkills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RanolaEducation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RanolaProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VicenteMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VicenteHobbies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VicenteSkills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VicenteEducation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="VicenteProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CruzContactUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CruzAboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LimMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LimHobbies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LimSkills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LimEducation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CruzMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CruzHobbies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LimProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CruzSkills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CruzEducation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
